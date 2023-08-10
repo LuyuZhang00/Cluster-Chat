@@ -120,58 +120,65 @@ build cmake_object_order_depends_target_ChatServer: phony || src/server/CMakeFil
 build src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: CXX_COMPILER__ChatServer ../src/server/chatserver.cpp || cmake_object_order_depends_target_ChatServer
   DEP_FILE = src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o.d
   FLAGS = -g -g
-  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir
 
 build src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: CXX_COMPILER__ChatServer ../src/server/chatservice.cpp || cmake_object_order_depends_target_ChatServer
   DEP_FILE = src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o.d
   FLAGS = -g -g
-  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir
 
 build src/server/CMakeFiles/ChatServer.dir/main.cpp.o: CXX_COMPILER__ChatServer ../src/server/main.cpp || cmake_object_order_depends_target_ChatServer
   DEP_FILE = src/server/CMakeFiles/ChatServer.dir/main.cpp.o.d
   FLAGS = -g -g
-  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir
 
 build src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: CXX_COMPILER__ChatServer ../src/server/db/db.cpp || cmake_object_order_depends_target_ChatServer
   DEP_FILE = src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o.d
   FLAGS = -g -g
-  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir/db
 
 build src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o: CXX_COMPILER__ChatServer ../src/server/model/friendmoel.cpp || cmake_object_order_depends_target_ChatServer
   DEP_FILE = src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o.d
   FLAGS = -g -g
-  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir/model
 
 build src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o: CXX_COMPILER__ChatServer ../src/server/model/groupmodel.cpp || cmake_object_order_depends_target_ChatServer
   DEP_FILE = src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o.d
   FLAGS = -g -g
-  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir/model
 
 build src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o: CXX_COMPILER__ChatServer ../src/server/model/offlinemessagemodel.cpp || cmake_object_order_depends_target_ChatServer
   DEP_FILE = src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o.d
   FLAGS = -g -g
-  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir/model
 
 build src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o: CXX_COMPILER__ChatServer ../src/server/model/usermodel.cpp || cmake_object_order_depends_target_ChatServer
   DEP_FILE = src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o.d
   FLAGS = -g -g
-  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir/model
+
+build src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: CXX_COMPILER__ChatServer ../src/server/redis/redis.cpp || cmake_object_order_depends_target_ChatServer
+  DEP_FILE = src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o.d
+  FLAGS = -g -g
+  INCLUDES = -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty
+  OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
+  OBJECT_FILE_DIR = src/server/CMakeFiles/ChatServer.dir/redis
 
 
 # =============================================================================
@@ -181,9 +188,9 @@ build src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o: CXX_COMPILER__
 #############################################
 # Link the executable ../bin/ChatServer
 
-build ../bin/ChatServer: CXX_EXECUTABLE_LINKER__ChatServer src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o src/server/CMakeFiles/ChatServer.dir/main.cpp.o src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o
+build ../bin/ChatServer: CXX_EXECUTABLE_LINKER__ChatServer src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o src/server/CMakeFiles/ChatServer.dir/main.cpp.o src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o
   FLAGS = -g -g
-  LINK_LIBRARIES = -lmuduo_net  -lmuduo_base  -lmysqlclient  -lpthread
+  LINK_LIBRARIES = -lmuduo_net  -lmuduo_base  -lmysqlclient  -lhiredis  -lpthread
   OBJECT_DIR = src/server/CMakeFiles/ChatServer.dir
   POST_BUILD = :
   PRE_LINK = :
