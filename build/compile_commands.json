@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/ecs-user/code/Cluster-Chat/build",
+  "command": "/usr/bin/g++   -I../include -I../include/server -I../thirdparty  -g -g   -o src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/server/chatserver.cpp",
+  "file": "/home/ecs-user/code/Cluster-Chat/src/server/chatserver.cpp"
+},
+
+{
+  "directory": "/home/ecs-user/code/Cluster-Chat/build",
+  "command": "/usr/bin/g++   -I../include -I../include/server -I../thirdparty  -g -g   -o src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/server/chatservice.cpp",
+  "file": "/home/ecs-user/code/Cluster-Chat/src/server/chatservice.cpp"
+},
+
+{
+  "directory": "/home/ecs-user/code/Cluster-Chat/build",
+  "command": "/usr/bin/g++   -I../include -I../include/server -I../thirdparty  -g -g   -o src/server/CMakeFiles/ChatServer.dir/main.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/server/main.cpp",
+  "file": "/home/ecs-user/code/Cluster-Chat/src/server/main.cpp"
+}
+]
