@@ -51,5 +51,11 @@
   "directory": "/home/ecs-user/code/Cluster-Chat/build",
   "command": "/usr/bin/g++   -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty  -g -g   -o src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/server/redis/redis.cpp",
   "file": "/home/ecs-user/code/Cluster-Chat/src/server/redis/redis.cpp"
+},
+
+{
+  "directory": "/home/ecs-user/code/Cluster-Chat/build",
+  "command": "/usr/bin/g++   -I../include -I../include/server -I../include/server/db -I../include/server/model -I../include/server/redis -I../thirdparty  -g -g   -o src/client/CMakeFiles/ChatClient.dir/main.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/client/main.cpp",
+  "file": "/home/ecs-user/code/Cluster-Chat/src/client/main.cpp"
 }
 ]

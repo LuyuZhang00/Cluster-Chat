@@ -12,3 +12,14 @@
 1	3885	1691676842428942898	src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o	11307bd88a776186
 1	3923	1691676842472944362	src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o	125b094d917c18f1
 1	335	1691676907659111489	../bin/ChatServer	a235dc3fea7c9a9
+1	603	1691677415311988568	../bin/ChatServer	d57ea4f98454104b
+1	4174	1691677418880107190	src/client/CMakeFiles/ChatClient.dir/main.cpp.o	d061ae86fd0aef45
+4174	4321	1691677419028112110	../bin/ChatClient	e1a2f2a5e803e9e6
+1	314	1691679007608921229	src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o	8fdd33c5b4fd8156
+314	616	1691679007908931202	../bin/ChatServer	d57ea4f98454104b
+1	314	1691679856965153271	src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o	8fdd33c5b4fd8156
+314	668	1691679857317164970	../bin/ChatServer	d57ea4f98454104b
+3	163	1691679869969585521	../bin/ChatClient	e1a2f2a5e803e9e6
+2	325	1691679870129590839	../bin/ChatServer	d57ea4f98454104b
+1	307	1691680111841625010	src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o	8fdd33c5b4fd8156
+307	627	1691680112161635647	../bin/ChatServer	d57ea4f98454104b
