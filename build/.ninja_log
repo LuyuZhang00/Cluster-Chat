@@ -1,0 +1,4 @@
+# ninja log v5
+0	32	1691671585242190848	src/server/CMakeFiles/ChatServer.dir/main.cpp.o	d358e186e5b8251e
+32	979	1691671586190222358	src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o	80a4d4eeaf10007c
+980	1766	1691671586974248418	src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o	392b2468352208d1

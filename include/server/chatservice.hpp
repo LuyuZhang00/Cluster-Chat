@@ -12,9 +12,9 @@ using namespace muduo::net;
 // #include "redis.hpp"
 // #include "groupmodel.hpp"
 // #include "friendmodel.hpp"
-// #include "usermodel.hpp"
+#include "usermodel.hpp"
 // #include "offlinemessagemodel.hpp"
-// #include "json.hpp"
+#include "json.hpp"
 using json = nlohmann::json;
 
 // 表示处理消息的事件回调方法类型
