@@ -11,6 +11,7 @@
                 "${workspaceFolder}/include/server/db",
                 "${workspaceFolder}/include/server/model",
                 "${workspaceFolder}/include/server/db",
+                "${workspaceFolder}/include/server/model",
                 "${workspaceFolder}/include/server/model"
             ],
             "defines": [],

@@ -25,6 +25,24 @@
 
 {
   "directory": "/home/ecs-user/code/Cluster-Chat/build",
+  "command": "/usr/bin/g++   -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty  -g -g   -o src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/server/model/friendmoel.cpp",
+  "file": "/home/ecs-user/code/Cluster-Chat/src/server/model/friendmoel.cpp"
+},
+
+{
+  "directory": "/home/ecs-user/code/Cluster-Chat/build",
+  "command": "/usr/bin/g++   -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty  -g -g   -o src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/server/model/groupmodel.cpp",
+  "file": "/home/ecs-user/code/Cluster-Chat/src/server/model/groupmodel.cpp"
+},
+
+{
+  "directory": "/home/ecs-user/code/Cluster-Chat/build",
+  "command": "/usr/bin/g++   -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty  -g -g   -o src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/server/model/offlinemessagemodel.cpp",
+  "file": "/home/ecs-user/code/Cluster-Chat/src/server/model/offlinemessagemodel.cpp"
+},
+
+{
+  "directory": "/home/ecs-user/code/Cluster-Chat/build",
   "command": "/usr/bin/g++   -I../include -I../include/server -I../include/server/db -I../include/server/model -I../thirdparty  -g -g   -o src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/ecs-user/code/Cluster-Chat/src/server/model/usermodel.cpp",
   "file": "/home/ecs-user/code/Cluster-Chat/src/server/model/usermodel.cpp"
 }
