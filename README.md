@@ -1,9 +1,11 @@
 
 ## 登录：
 模拟服务器1：./ChatServer 127.0.0.1 6000
+
 模拟服务器2：./ChatServer 127.0.0.1 6002
 
 模拟客户端1：./ChatClient 127.0.0.1 8000
+
 模拟客户端2：./ChatClient 127.0.0.1 8000
 
 ![Alt text](imgs/image.png)

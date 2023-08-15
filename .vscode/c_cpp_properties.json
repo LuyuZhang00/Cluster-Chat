@@ -5,16 +5,14 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include/server",
+                "${workspaceFolder}/include/client",
                 "${workspaceFolder}/include",
                 "/usr/local/include/boost/contract/detail/preprocessor/keyword",
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/include/server/db",
                 "${workspaceFolder}/include/server/model",
-                "${workspaceFolder}/include/server/db",
-                "${workspaceFolder}/include/server/model",
-                "${workspaceFolder}/include/server/model",
-                "${workspaceFolder}/include/server/model",
-                "/usr/include/x86_64-linux-gnu"
+                "/usr/include/x86_64-linux-gnu",
+                "${workspaceFolder}/thirdparty"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
