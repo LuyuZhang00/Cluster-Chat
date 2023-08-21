@@ -64,6 +64,7 @@ MsgHandler ChatService::getHandler(int msgid)
 // 处理登录业务  id  pwd   pwd
 void ChatService::login(const TcpConnectionPtr &conn, json &js, Timestamp time)
 {
+    // LOG_INFO << "do login service!";
     int id = js["id"].get<int>();
     string pwd = js["password"];
 
@@ -170,6 +171,7 @@ void ChatService::login(const TcpConnectionPtr &conn, json &js, Timestamp time)
 // 处理注册业务  name  password
 void ChatService::reg(const TcpConnectionPtr &conn, json &js, Timestamp time)
 {
+    // LOG_INFO << "do reg service!";
     string name = js["name"];
     string pwd = js["password"];
 

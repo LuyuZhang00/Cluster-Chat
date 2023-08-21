@@ -20,7 +20,7 @@ ChatServer::ChatServer(EventLoop *loop,
   _server.setMessageCallback(std::bind(&ChatServer::onMessage, this, _1, _2, _3));
 
   // 设置线程数量
-  _server.setThreadNum(2);
+  _server.setThreadNum(4);
 }
 
 void ChatServer::start() { _server.start(); }
@@ -47,7 +47,8 @@ void ChatServer::onMessage(const TcpConnectionPtr &conn,
   json js = json::parse(buf);
   // 达到的目的：完全解耦网络模块的代码和业务模块的代码
   // 通过js["msgid"]获取->业务处理器handler->conn js time
-  // function<void(const TcpConnectionPtr &, json &, Timestamp)> msgHandler = ChatService::instance()->getHandler(js["msgid"].get<int>());    // json的get方法将msgid转为int
+  // function<void(const TcpConnectionPtr &, json &, Timestamp)> msgHandler = ChatService::instance()->getHandler(js["msgid"].get<int>());    
+  // json的get方法将msgid转为int
   auto msgHandler = ChatService::instance()->getHandler(js["msgid"].get<int>()); // json的get方法将msgid转为int
   // 回调消息绑定好的事件处理器 来执行相应的业务处理
   msgHandler(conn, js, time);
