@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "*.asm": "assembly",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "thread": "cpp"
   }
 }

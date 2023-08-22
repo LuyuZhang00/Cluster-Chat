@@ -332,6 +332,7 @@ void mainMenu(int clientfd)
         {
             command = commandbuf.substr(0, idx);
         }
+        
         auto it = commandHandlerMap.find(command);
         if (it == commandHandlerMap.end())
         {
